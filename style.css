@@ -1,0 +1,120 @@
+/**************** RESET *******************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/******************* BASIC STRUCTRE  ****************/
+html, body {
+  width: 100%; }
+
+.full-width {
+  width: 100%; }
+
+/********************* HEADER *****************/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 900px; }
+  header section {
+    padding: 0 30px;
+    border-bottom: 1px solid #e5e5e5;
+    clear: both; }
+    header section.top {
+      background-color: #f1f1f1;
+      height: 60px; }
+      header section.top img {
+        padding-top: 15px; }
+    header section.bottom {
+      height: 50px;
+      background-color: #fff; }
+      header section.bottom img {
+        padding-top: 10px; }
+  header img {
+    display: block; }
+    header img.left {
+      float: left; }
+    header img.right {
+      float: right; }
+
+#logo-search {
+  display: block;
+  float: left;
+  padding-top: 15px; }
+
+#plus-bar {
+  display: block;
+  float: right;
+  padding-top: 15px; }
+
+#sidebar {
+  position: fixed;
+  top: 110px;
+  left: 0;
+  width: 220px; }
+
+#content-container {
+  /*max-width: 80%;*/
+  /*min-width: 680px;*/
+  padding-top: 120px;
+  padding-left: 220px; }
+  #content-container .email {
+    margin-bottom: 2%;
+    float: left; }
+  #content-container img{
+    display: block;
+    margin: 0 auto;
+  }
+
+#backlink{
+  padding: 10px 0 10px 220px;
+  text-align: center;
+}
