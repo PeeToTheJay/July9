@@ -102,8 +102,8 @@ header {
   width: 220px; }
 
 #content-container {
-  /*max-width: 80%;*/
-  /*min-width: 680px;*/
+  max-width: 85%;
+  min-width: 680px;
   padding-top: 120px;
   padding-left: 220px; }
   #content-container .email {
